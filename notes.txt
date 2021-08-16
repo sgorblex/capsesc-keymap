@@ -1,5 +1,3 @@
-#!/bin/sh
-
 # notes
 # default: create the switched version of the current keymap and install
 # if argument present: create the switched version of the specified keymap
