@@ -7,6 +7,8 @@ Switching the <kbd>esc</kbd> and <kbd>caps_lock</kbd> keys in the graphical inte
 In the tty this is not so easy, since you need to create a custom keymap.
 The script aims to do so automatically, by creating a keymap either over the current one or over a specified one.
 
+
+
 ## Usage
 As in `capsesc.sh --help`:
 ```
@@ -23,3 +25,7 @@ OPTIONS:
 				(puts it in /usr/share/kbd/keymaps/custom)
 -h, --help			Show this help
 ```
+
+
+## License
+[MIT](LICENSE)
