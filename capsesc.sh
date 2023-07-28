@@ -71,6 +71,7 @@ if [ -n "$LOAD" ]; then
 	sudo loadkeys ./capsesc.map.gz
 fi
 if [ -n "$INSTALL" ]; then
+	sudo mkdir -p "$CUST_KEYMAP_DIR"
 	sudo mv capsesc.map.gz "$CUST_KEYMAP_DIR/$NEW_NAME.map.gz"
 fi
 if [ -z "$LOAD" -a -z "$INSTALL" ]; then
